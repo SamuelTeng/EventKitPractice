@@ -7,12 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		576196C116B109DB006E4710 /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 576196C016B109DB006E4710 /* EventKit.framework */; };
+		576196C416B109E4006E4710 /* EventKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 576196C316B109E4006E4710 /* EventKitUI.framework */; };
 		57AC802716B0273C00CF3CA1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57AC802616B0273C00CF3CA1 /* UIKit.framework */; };
 		57AC802916B0273C00CF3CA1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57AC802816B0273C00CF3CA1 /* Foundation.framework */; };
 		57AC802B16B0273C00CF3CA1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57AC802A16B0273C00CF3CA1 /* CoreGraphics.framework */; };
 		57AC803116B0273C00CF3CA1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 57AC802F16B0273C00CF3CA1 /* InfoPlist.strings */; };
 		57AC803316B0273C00CF3CA1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 57AC803216B0273C00CF3CA1 /* main.m */; };
-		57AC803716B0273C00CF3CA1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 57AC803616B0273C00CF3CA1 /* AppDelegate.m */; };
 		57AC803916B0273C00CF3CA1 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 57AC803816B0273C00CF3CA1 /* Default.png */; };
 		57AC803B16B0273C00CF3CA1 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 57AC803A16B0273C00CF3CA1 /* Default@2x.png */; };
 		57AC803D16B0273C00CF3CA1 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 57AC803C16B0273C00CF3CA1 /* Default-568h@2x.png */; };
@@ -34,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		576196C016B109DB006E4710 /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+		576196C316B109E4006E4710 /* EventKitUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKitUI.framework; path = System/Library/Frameworks/EventKitUI.framework; sourceTree = SDKROOT; };
 		57AC802216B0273C00CF3CA1 /* EventKitPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EventKitPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		57AC802616B0273C00CF3CA1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		57AC802816B0273C00CF3CA1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -42,8 +45,6 @@
 		57AC803016B0273C00CF3CA1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		57AC803216B0273C00CF3CA1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		57AC803416B0273C00CF3CA1 /* EventKitPractice-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EventKitPractice-Prefix.pch"; sourceTree = "<group>"; };
-		57AC803516B0273C00CF3CA1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		57AC803616B0273C00CF3CA1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		57AC803816B0273C00CF3CA1 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		57AC803A16B0273C00CF3CA1 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		57AC803C16B0273C00CF3CA1 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
@@ -60,6 +61,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				576196C416B109E4006E4710 /* EventKitUI.framework in Frameworks */,
+				576196C116B109DB006E4710 /* EventKit.framework in Frameworks */,
 				57AC802716B0273C00CF3CA1 /* UIKit.framework in Frameworks */,
 				57AC802916B0273C00CF3CA1 /* Foundation.framework in Frameworks */,
 				57AC802B16B0273C00CF3CA1 /* CoreGraphics.framework in Frameworks */,
@@ -101,6 +104,8 @@
 		57AC802516B0273C00CF3CA1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				576196C316B109E4006E4710 /* EventKitUI.framework */,
+				576196C016B109DB006E4710 /* EventKit.framework */,
 				57AC802616B0273C00CF3CA1 /* UIKit.framework */,
 				57AC802816B0273C00CF3CA1 /* Foundation.framework */,
 				57AC802A16B0273C00CF3CA1 /* CoreGraphics.framework */,
@@ -112,8 +117,6 @@
 		57AC802C16B0273C00CF3CA1 /* EventKitPractice */ = {
 			isa = PBXGroup;
 			children = (
-				57AC803516B0273C00CF3CA1 /* AppDelegate.h */,
-				57AC803616B0273C00CF3CA1 /* AppDelegate.m */,
 				57AC802D16B0273C00CF3CA1 /* Supporting Files */,
 			);
 			path = EventKitPractice;
@@ -262,7 +265,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				57AC803316B0273C00CF3CA1 /* main.m in Sources */,
-				57AC803716B0273C00CF3CA1 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,6 +362,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "EventKitPractice/EventKitPractice-Prefix.pch";
 				INFOPLIST_FILE = "EventKitPractice/EventKitPractice-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -371,6 +374,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "EventKitPractice/EventKitPractice-Prefix.pch";
 				INFOPLIST_FILE = "EventKitPractice/EventKitPractice-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -429,6 +433,7 @@
 				57AC805716B0273C00CF3CA1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		57AC805816B0273C00CF3CA1 /* Build configuration list for PBXNativeTarget "EventKitPracticeTests" */ = {
 			isa = XCConfigurationList;
@@ -437,6 +442,7 @@
 				57AC805A16B0273C00CF3CA1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
